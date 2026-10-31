@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Symbole SetScrobble : pochettes de disques superposées et vinyle">
+  <defs>
+    <linearGradient id="backCard" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#650018"/><stop offset=".52" stop-color="#8D002B"/><stop offset="1" stop-color="#4A0015"/></linearGradient>
+    <linearGradient id="middleCard" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F13B62"/><stop offset=".48" stop-color="#D90A3C"/><stop offset="1" stop-color="#A90031"/></linearGradient>
+    <linearGradient id="frontCard" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#FFE0E7"/><stop offset=".42" stop-color="#F7A9BC"/><stop offset=".72" stop-color="#E95B80"/><stop offset="1" stop-color="#8D002B"/></linearGradient>
+    <linearGradient id="vinyl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#520018"/><stop offset=".55" stop-color="#790022"/><stop offset="1" stop-color="#3B0012"/></linearGradient>
+    <linearGradient id="groove" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B82B50" stop-opacity=".75"/><stop offset=".5" stop-color="#3E0015" stop-opacity=".12"/><stop offset="1" stop-color="#D84A6C" stop-opacity=".55"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="18"/><feOffset dy="20"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g transform="rotate(-13 430 520)" filter="url(#shadow)"><rect x="170" y="220" width="610" height="650" rx="76" fill="url(#backCard)"/><path d="M205 282 Q205 255 244 255 H706" fill="none" stroke="#D64A6B" stroke-opacity=".16" stroke-width="5" stroke-linecap="round"/></g>
+  <g transform="rotate(-5 520 520)"><rect x="220" y="190" width="625" height="665" rx="78" fill="url(#middleCard)" filter="url(#shadow)"/><path d="M258 236 Q258 220 285 220 H790" fill="none" stroke="#FFB0C1" stroke-opacity=".22" stroke-width="5" stroke-linecap="round"/></g>
+  <g transform="rotate(8 570 590)" filter="url(#shadow)">
+    <rect x="300" y="285" width="620" height="650" rx="78" fill="url(#frontCard)"/><path d="M344 326 Q344 312 370 312 H845" fill="none" stroke="#FFFFFF" stroke-opacity=".30" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="610" cy="610" r="205" fill="url(#vinyl)"/>
+    <circle cx="610" cy="610" r="177" fill="none" stroke="url(#groove)" stroke-width="5"/><circle cx="610" cy="610" r="158" fill="none" stroke="url(#groove)" stroke-width="4"/><circle cx="610" cy="610" r="139" fill="none" stroke="url(#groove)" stroke-width="4"/><circle cx="610" cy="610" r="119" fill="none" stroke="url(#groove)" stroke-width="3"/>
+    <circle cx="610" cy="610" r="78" fill="#F5B0C1"/><circle cx="610" cy="610" r="13" fill="#650018"/>
+  </g>
+</svg>
