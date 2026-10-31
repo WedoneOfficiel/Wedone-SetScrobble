@@ -13,6 +13,7 @@
   <img alt="Sans installation" src="https://img.shields.io/badge/installation-aucune-e83f68?style=for-the-badge">
   <img alt="Sans serveur" src="https://img.shields.io/badge/serveur-aucun-bd315c?style=for-the-badge">
   <img alt="Thèmes" src="https://img.shields.io/badge/th%C3%A8mes-syst%C3%A8me%20%C2%B7%20clair%20%C2%B7%20sombre-8f2243?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-e83f68?style=for-the-badge">
 </p>
 
 ---
@@ -46,17 +47,70 @@ L'interface propose les thèmes **Système, Clair et Sombre**, s'adapte aux mobi
 
 > **Facultatif :** une clé gratuite [setlist.fm](https://www.setlist.fm/settings/api), à ajouter dans les Paramètres, permet d'importer les setlists de concerts réels.
 
+## Historique des versions
+
+Les versions de Wedone SetScrobble sont répertoriées ci-dessous, de la plus récente à la plus ancienne. Chaque version possède sa propre fiche afin de distinguer clairement les fonctionnalités, nouveautés et corrections qui lui appartiennent.
+
+---
+
+<details open>
+<summary><strong>Version 1.0.0</strong> - Samedi 31 octobre 2026</summary>
+
+<br>
+
+> <strong>Publication initiale</strong>
+>
+> Cette première version officielle de Wedone SetScrobble introduit les fonctionnalités principales de l'application.
+
+### Fonctionnalités
+
+- **Scrobble rapide :** recherche de morceaux avec autocomplétion Last.fm, mise en file d'attente et envoi groupé des écoutes. Consultation des scrobbles récents avec leur pochette, possibilité de les rejouer ou de les remettre en file.
+- **Setlists :** création, modification, duplication et suppression de listes personnalisées. Gestion des concerts, films, vinyles, CD et listes libres, avec import et export JSON.
+- **Éditeur :** génération automatique des horaires de scrobbling, sélection multiple, envoi individuel ou groupé des morceaux et import depuis setlist.fm.
+- **Albums :** recherche d'albums, calcul automatique des horaires à partir des durées réelles des titres ou d'un intervalle fixe, puis scrobbling complet ou transfert vers l'éditeur.
+- **Paramètres et connexion :** guide de configuration Last.fm en quatre étapes, gestion du profil, configuration de la clé API setlist.fm et déconnexion.
+- **Personnalisation :** thèmes Système, Clair et Sombre, interface adaptative pour ordinateurs et mobiles.
+- **Sauvegarde locale :** conservation automatique des paramètres et des données dans le navigateur, avec raccourcis clavier.
+
+### Infrastructure et confidentialité
+
+- Application entièrement exécutée côté navigateur, sans serveur Wedone.
+- Aucune installation ni étape de compilation nécessaire.
+- Stockage local des paramètres, clés API et setlists.
+- Communication directe avec Last.fm et setlist.fm selon les fonctionnalités utilisées.
+
+</details>
+
+---
+
+## Historique des versions
+
+### Version 1.0.0 - Samedi 31 octobre 2026
+
+Cette première version officielle de Wedone SetScrobble introduit les fonctionnalités principales de l'application.
+
+**Fonctionnalités disponibles :**
+
+- **Scrobble rapide :** recherche de morceaux avec autocomplétion Last.fm, mise en file d'attente et envoi groupé des écoutes. Consultation des scrobbles récents, avec possibilité de les rejouer ou de les ajouter à la file.
+- **Setlists :** création, modification, duplication et suppression de listes personnalisées. Gestion des concerts, films, vinyles, CD et listes libres, avec import et export JSON.
+- **Éditeur :** génération automatique des horaires de scrobbling, sélection multiple, envoi individuel ou groupé des morceaux et import de setlists depuis setlist.fm.
+- **Albums :** recherche d'albums, calcul automatique des horaires à partir des durées réelles des morceaux ou d'un intervalle fixe, et envoi complet ou transfert vers l'éditeur.
+- **Paramètres et connexion :** guide de configuration Last.fm en quatre étapes, gestion du profil, configuration de la clé API setlist.fm et déconnexion.
+- **Personnalisation :** thèmes Système, Clair et Sombre, interface adaptative pour ordinateurs et mobiles.
+- **Sauvegarde locale :** conservation automatique des paramètres et des données dans le navigateur, avec raccourcis clavier pour faciliter l'utilisation.
+
+**Infrastructure et confidentialité :**
+
+- Application entièrement côté navigateur, sans serveur Wedone.
+- Aucune installation ni étape de compilation nécessaire.
+- Stockage local des paramètres, clés et setlists.
+- Communication directe avec les services Last.fm et setlist.fm selon les fonctionnalités utilisées.
+
 ## Confidentialité et sécurité
 
 - **Aucun serveur Wedone** : tes données ne sont envoyées qu'à Last.fm (et à setlist.fm si tu l'utilises).
 - Tes réglages, tes clés et tes setlists sont enregistrés dans le **stockage local de ton navigateur**. Ils restent sur ton appareil et ne sont pas synchronisés ; vider les données du site les efface. Pense à **exporter tes setlists en JSON** pour en garder une copie.
 - Les opérations signées de Last.fm exigent ton **API Secret** côté navigateur : il n'est donc pas protégé par un serveur privé. Ne le partage avec personne, évite les appareils partagés et clique sur *Déconnecter* après usage.
-
-## Limites connues
-
-- Une connexion Internet est nécessaire (l'application charge un petit script de signature depuis cdnjs et interroge directement Last.fm).
-- Last.fm et setlist.fm doivent être disponibles. Si setlist.fm refuse les appels depuis un navigateur, l'import de setlists concerné peut ne pas fonctionner.
-- Last.fm n'a pas toujours de pochette pour un morceau : une pastille disque s'affiche alors à la place.
 
 ## Héberger ta propre copie
 
