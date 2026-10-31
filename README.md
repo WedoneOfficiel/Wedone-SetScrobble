@@ -118,9 +118,3 @@ Cette première version officielle de Wedone SetScrobble introduit les fonctionn
 ## Héberger ta propre copie
 
 SetScrobble est un simple fichier `index.html` (avec son dossier `assets`), sans framework ni étape de build. Pour en avoir ta propre version : fais un *fork* du dépôt, puis active **GitHub Pages** dans *Settings → Pages* (branche `main`, dossier `/ (root)`).
-
----
-
-<p align="center">
-  <sub>Wedone SetScrobble · fait pour les mélomanes qui aiment garder une trace.</sub>
-</p>
