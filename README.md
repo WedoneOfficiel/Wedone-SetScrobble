@@ -10,10 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Sans installation" src="https://img.shields.io/badge/installation-aucune-e83f68?style=for-the-badge">
-  <img alt="Sans serveur" src="https://img.shields.io/badge/serveur-aucun-bd315c?style=for-the-badge">
-  <img alt="Thèmes" src="https://img.shields.io/badge/th%C3%A8mes-syst%C3%A8me%20%C2%B7%20clair%20%C2%B7%20sombre-8f2243?style=for-the-badge">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-e83f68?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="https://wedoneofficiel.github.io/Wedone-SetScrobble/">
+    <strong>🎧 OUVRIR WEDONE SETSCROBBLE →</strong>
+  </a>
 </p>
 
 ---
